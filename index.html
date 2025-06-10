@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CPI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> this is AI
+</head>
+<body>
+  <h1 id="page-title">CPI Inflation Calculator</h1>
+
+  <div class="calc-section">
+    <label>Amount ($):</label>
+    <input type="number" id="moneyInput" placeholder="100">
+
+    <label>From Year:</label>
+    <input type="number" id="fromYearInput" placeholder="min - 1975">
+
+    <label>To Year:</label>
+    <input type="number" id="toYearInput" placeholder="max - 2025">
+
+    <button id="calculateBtn">Calculate</button>
+
+    <p id="result">Result: </p>
+    <p id="funFact" class="highlighted">Fun Fact: </p>
+  </div>
+
+  <canvas id="inflationChart" class="chart"></canvas>
+  <p class="graph-description">
+    This graph shows how the amount you entered would have changed in value over time.
+    It compares the dollar value from 5 years before your "From Year" to 5 years after.
+</p>
+
+
+  <a class="nav-link" href="more.html">What is CPI?</a>
+
+  <a class="nav-link" href="quiz.html">Take the Inflation Quiz</a>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

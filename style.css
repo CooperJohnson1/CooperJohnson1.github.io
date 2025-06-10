@@ -1,0 +1,228 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #fdf6e3, #f4e1c1);
+    margin: 0;
+    padding: 0;
+}
+/* ^ used ai*/
+#page-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.2em;
+    color: #4e342e;
+    background-color: #e6ccb2;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.calc-section {
+    background-color: #fff7e6;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 2px solid #e0b089;
+}
+
+label {
+    font-weight: bold;
+    color: #5d4037;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #d2a679;
+    border-radius: 5px;
+    background-color: #fef9f2;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #a1887f;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #8d6e63;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4e342e;
+}
+
+#funFact {
+    font-style: italic;
+    margin-top: 10px;
+    color: #3e2723;
+    background-color: #fce4d6;
+    padding: 10px;
+    border-left: 5px solid #bcaaa4;
+    border-radius: 4px;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    color: #6d4c41;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.cpi-image {
+    display: block;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 3px solid #e6ccb2;
+}
+
+.info-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff7e6;
+    border-radius: 10px;
+    border: 2px solid #e0b089;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 1.05em;
+    line-height: 1.6;
+    color: #4e342e;
+}
+
+.section-header {
+    color: #5d4037;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* used ai*/
+.chart {
+  display: block;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #fff7e6;
+  border: 2px solid #e0b089;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.graph-description {
+    max-width: 500px;
+    margin: 15px auto;
+    font-size: 0.95em;
+    color: #5d4037;
+    text-align: center;
+    background-color: #fff3e0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e0b089;
+}
+/* used ai*/
+/* quiz styles */
+
+body {
+  background-color: #f7f2e7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+  margin: 0;
+  color: #333;
+}
+/* used ai*/
+.quiz-title {
+  text-align: center;
+  font-size: 32px;
+  color: #8b4513;
+  margin-bottom: 40px;
+}
+
+.quiz-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* used ai*/
+.quiz-section {
+  display: none;
+  background-color: #fffaf3;
+  border: 2px solid #e0d7c4;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+/* used ai*/
+.quiz-section.active {
+  display: block;
+}
+
+.quiz-section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+input[type="text"] {
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #bfa97a;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #d2b48c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b48b63;
+}
+
+.hint {
+  margin-top: 12px;
+  font-style: italic;
+  color: #555;
+}
+
+.result-msg {
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 17px;
+}
+/* used ai*/
+.nav-link {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  color: #8b4513;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+/* used ai*/

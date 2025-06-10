@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inflation Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="quiz.js" defer></script>
+  <style>
+    body {
+      background-color: #f7f2e7;
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    h1.quiz-title {
+      color: darkred;
+      margin-bottom: 20px;
+    }
+    .quiz-section {
+      display: none;
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #fffaf3;
+      border: 1px solid #d1c7b7;
+      border-radius: 8px;
+    }
+    .quiz-section.active {
+      display: block;
+    }
+    .quiz-section p {
+      margin: 8px 0;
+    }
+    .quiz-section input[type="text"] {
+      padding: 6px;
+      font-size: 1em;
+      width: 200px;
+    }
+    .quiz-section button {
+      margin-left: 10px;
+      padding: 6px 12px;
+      font-size: 1em;
+      background-color: #d7bfa0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .quiz-section button:hover {
+      background-color: #c2a785;
+    }
+    .hint {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .result-msg {
+      margin-top: 5px;
+      font-weight: bold;
+    }
+    .nav-link {
+      display: inline-block;
+      margin-top: 20px;
+      color: #333;
+      text-decoration: none;
+    }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="quiz-title">Inflation Quick Quiz</h1>
+
+  <form class="quiz-form">
+    <div id="q1" class="quiz-section active">
+      <p><strong>Loaf of Bread:</strong> Estimate how much a loaf of bread was worth in <span id="year1"></span>:</p>
+      <input type="text" id="answer1" placeholder="$0.00">
+      <button type="button" onclick="checkAnswer(this, 'bread')">Next</button>
+      <p class="hint" id="hint1"></p>
+      <p id="result1" class="result-msg"></p>
+    </div>
+
+    <div id="q2" class="quiz-section">
+      <p><strong>Gas Prices:</strong> Guess the average gas price in <span id="year2"></span>:</p>
+      <input type="text" id="answer2" placeholder="$0.00">
+      <button type="button" onclick="checkAnswer(this, 'gas')">Next</button>
+      <p class="hint" id="hint2"></p>
+      <p id="result2" class="result-msg"></p>
+    </div>
+
+    <div id="q3" class="quiz-section">
+      <p><strong>Movie Ticket:</strong> How much did a movie ticket cost in <span id="year3"></span>?</p>
+      <input type="text" id="answer3" placeholder="$0.00">
+      <button type="button" onclick="checkAnswer(this, 'movie')">Next</button>
+      <p class="hint" id="hint3"></p>
+      <p id="result3" class="result-msg"></p>
+    </div>
+
+    <div id="q4" class="quiz-section">
+      <p><strong>Fast Food Combo:</strong> Estimate the price of a fast food meal in <span id="year4"></span>:</p>
+      <input type="text" id="answer4" placeholder="$0.00">
+      <button type="button" onclick="checkAnswer(this, 'combo')">Finish</button>
+      <p class="hint" id="hint4"></p>
+      <p id="result4" class="result-msg"></p>
+    </div>
+  </form>
+
+  <a class="nav-link" href="index.html">← Back to Calculator</a>
+</body>
+</html>
